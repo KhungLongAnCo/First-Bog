@@ -8,9 +8,14 @@
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,40,45,1) 41%, rgba(0,212,255,1) 100%);
 }
-.navbar .container-fluid .navbar-header .fa-cat{
+.navbar .container-fluid .navbar-header a .fa-cat{
 	color: white;
 	padding-left: 30px;
+}
+#title{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
 }
 .navbar .container-fluid .collapse ul{
 	height: 100%;
@@ -19,6 +24,9 @@
 }
 .navbar .container-fluid .collapse ul li{
 	height: 100%;
+	border-radius: 20px;
+	border-left: solid;
+	border-right: solid;
 }
 .navbar .container-fluid .collapse ul li:hover{
 	transition: 0.5s;
